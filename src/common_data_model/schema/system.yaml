@@ -385,15 +385,21 @@ classes:
       A mixin for entities within the System Data Model (SDM) that are mappable to domain-specific concepts
     slots:
       core_localId
+
+  system_HasSdmReferenceDesignator:
+    is_a: Meta
+    abstract: true
+    mixin: true
+    class_uri: sys:SdmEntity
+    description: >-
+      A mixin for entities within the System Data Model (SDM) that are identifiable by reference designators
     attributes:
-      system_SdmMappableEntity_metadata:
-        alias: metadata
-        title: metadata
-        description: Client-specific metadata associated with this entity.
-        range: system_SdmClientMetadata
-        multivalued: true
-        inlined: true
-        inlined_as_list: true
+      system_SdmMappableEntity_sdmReferenceDesignator:
+        alias: sdmReferenceDesignator
+        title: sdmReferenceDesignator
+        description: Reference designator
+        range: string
+
   system_SdmClientMetadata:
     is_a: Resource
     in_subset: system-sdm
@@ -538,6 +544,7 @@ classes:
       Represents a logical block within a system functional model.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
     slots:
       - core_name
       - system_parameters
@@ -567,16 +574,11 @@ classes:
       Represents a port within a system design.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
     slots:
       - core_name
       - system_parameters
     attributes:
-      system_SdmPort_quantity:
-        alias: quantity
-        title: quantity
-        description: The number of identical ports represented by this port instance (e.g., 4 UART ports).
-        range: integer
-        required: true
       system_SdmPort_portType:
         alias: portType
         title: port type
@@ -711,25 +713,42 @@ classes:
       Represents a software component instance and its dependencies.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
+    slots:
+      - core_name
+      - system_parameters
+      - core_implementedBy
+    slot_usage:
+      core_implementedBy:
+        range: system_SdmSoftwareStackInstance
+  system_SdmSoftwareStackInstance:
+    is_a: Resource
+    in_subset: system-sdm
+    class_uri: sys:SdmSoftwareStackInstance
+    title: Software Stack Instance
+    annotations:
+      platformAPI: SysSdmSoftwareStackInstance
+    description: >-
+      Represents a software stack instance instance and its dependencies.
     slots:
       - core_name
       - system_parameters
     attributes:
-      system_SdmSoftwareComponent_specification:
+      system_SdmSoftwareStackInstance_specification:
         alias: specification
         title: specification
         range: system_SdmSoftwareSpecification
         description: The specification of this software component.
-      system_SdmSoftwareComponent_dependencies:
+      system_SdmSoftwareStackInstance_dependencies:
         alias: dependencyIds
         title: dependencies
         description: The software components that this component depends on.
-        range: system_SdmSoftwareComponent
+        range: system_SdmSoftwareStackInstance
         multivalued: true
       system_SdmSoftwareComponent_peripheralInstance:
         alias: peripheralInstanceId
         title: peripheral instance
-        description: >- 
+        description: >-
           The peripheral associated with this software component. 
           Used by drivers to bind to specific hardware peripherals.
         range: dm_peripheral_instance
@@ -816,6 +835,7 @@ classes:
       Represents a hardware component / part.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
     slots:
       - core_name
       - system_parameters

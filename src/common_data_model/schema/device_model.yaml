@@ -430,6 +430,8 @@ classes:
     description: A single peripheral definition, including its instances and properties.
     annotations:
       platformAPI: DmPeripheral
+    mixins:
+      - system_HasSdmReferenceDesignator
     slots:
       - core_localId
     attributes:
@@ -542,6 +544,8 @@ classes:
     class_uri: dm:PeripheralPinConfig
     title: PeripheralPinConfig
     description: A specific pin multiplexing configuration within peripheral configuration.
+    mixins:
+      - system_HasSdmReferenceDesignator
     annotations:
       platformAPI: DmPeripheralPinConfig
     attributes:
@@ -622,6 +626,8 @@ classes:
     description: A physical port on the device, with its functions, configurations, and connections.
     annotations:
       platformAPI: DmPort
+    mixins:
+      - system_HasSdmReferenceDesignator
     slots:
       - core_localId
       - core_description
