@@ -729,7 +729,7 @@ classes:
     annotations:
       platformAPI: SysSdmSoftwareStackInstance
     description: >-
-      Represents a software stack instance instance and its dependencies.
+      Represents a software stack instance and its dependencies.
     slots:
       - core_name
       - system_parameters
