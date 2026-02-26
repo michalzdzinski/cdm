@@ -390,15 +390,18 @@ classes:
     is_a: Meta
     abstract: true
     mixin: true
-    class_uri: sys:SdmEntity
+    class_uri: sys:HasSdmReferenceDesignator
     description: >-
       A mixin for entities within the System Data Model (SDM) that are identifiable by reference designators
     attributes:
-      system_SdmMappableEntity_sdmReferenceDesignator:
+      system_HasSdmReferenceDesignator_sdmReferenceDesignator:
+        slot_uri: sys:HasSdmReferenceDesignator_sdmReferenceDesignator
         alias: sdmReferenceDesignator
         title: sdmReferenceDesignator
         description: Reference designator
         range: string
+        multivalued: false
+        required: true
 
   system_SdmClientMetadata:
     is_a: Resource
@@ -679,6 +682,7 @@ classes:
       Captures the software components and their interactions within the system design.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
     slots:
       - core_name
       - core_implementedBy
@@ -715,12 +719,13 @@ classes:
       - system_SdmMappableEntity
       - system_HasSdmReferenceDesignator
     slots:
+      - core_implementedBy
       - core_name
       - system_parameters
-      - core_implementedBy
     slot_usage:
       core_implementedBy:
         range: system_SdmSoftwareStackInstance
+
   system_SdmSoftwareStackInstance:
     is_a: Resource
     in_subset: system-sdm
@@ -735,24 +740,32 @@ classes:
       - system_parameters
     attributes:
       system_SdmSoftwareStackInstance_specification:
+        slot_uri: sys:SdmSoftwareStackInstance_specification
         alias: specification
         title: specification
+        description: The specification of this software stack instance.
         range: system_SdmSoftwareSpecification
-        description: The specification of this software component.
+        multivalued: false
+        required: true
       system_SdmSoftwareStackInstance_dependencies:
+        slot_uri: sys:SdmSoftwareStackInstance_dependencies
         alias: dependencyIds
         title: dependencies
-        description: The software components that this component depends on.
+        description: The software stacks that this instance depends on.
         range: system_SdmSoftwareStackInstance
         multivalued: true
-      system_SdmSoftwareComponent_peripheralInstance:
+        required: true
+      system_SdmSoftwareStackInstance_peripheralInstance:
+        slot_uri: sys:SdmSoftwareStackInstance_peripheralInstance
         alias: peripheralInstanceId
         title: peripheral instance
         description: >-
-          The peripheral associated with this software component. 
+          The peripheral associated with this software stack. 
           Used by drivers to bind to specific hardware peripherals.
         range: dm_peripheral_instance
+        multivalued: false
         required: false
+
   system_SdmSoftwareSpecification:
     is_a: Resource
     in_subset: system-sdm
@@ -801,6 +814,7 @@ classes:
       Captures the hardware components and their interactions within the system design.
     mixins:
       - system_SdmMappableEntity
+      - system_HasSdmReferenceDesignator
     slots:
       - core_name
       - core_implementedBy
