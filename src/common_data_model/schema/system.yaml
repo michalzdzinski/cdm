@@ -735,7 +735,7 @@ classes:
       system_SdmSoftwareComponent_libraryComponentId:
         slot_uri: sys:SdmSoftwareComponent_libraryComponentId
         alias: libraryComponentId
-        title: libraryComponentId
+        title: library component id
         description: The id of the library software component
         range: string
         multivalued: false
