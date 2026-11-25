@@ -1,0 +1,5200 @@
+{
+ "classes": {
+  "col_Comment": {
+   "class_uri": "col:Comment",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesComment",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesComment/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Web Viewer",
+      "url": "https://www.altium.com/documentation/altium-365/viewers/web-viewer#comment_placement"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "collaboration",
+   "title": "Comment"
+  },
+  "col_CommentThread": {
+   "class_uri": "col:CommentThread",
+   "grid": "grid:workspace:{workspace-id}:collaboration:comment-thread/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesCommentThread",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesCommentThread/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Web Viewer",
+      "url": "https://www.altium.com/documentation/altium-365/viewers/web-viewer#commenting"
+     },
+     {
+      "primary": false,
+      "text": "Document Commenting",
+      "url": "https://www.altium.com/documentation/altium-designer/document-commenting"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "collaboration",
+   "title": "Comment Thread"
+  },
+  "col_DesignReview": {
+   "class_uri": "col:DesignReview",
+   "grid": "grid:workspace:{workspace-id}:collaboration:design-review/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Design Reviews",
+      "url": "https://www.altium.com/documentation/altium-365/project-design-reviews"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "collaboration",
+   "title": "Design Review"
+  },
+  "col_Task": {
+   "class_uri": "col:Task",
+   "grid": "grid:workspace:{workspace-id}:collaboration:task/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesTask",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesTask/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Tasks",
+      "url": "https://www.altium.com/documentation/altium-365/tasks"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "collaboration",
+   "title": "Task"
+  },
+  "con_EnvironmentConfiguration": {
+   "class_uri": "con:EnvironmentConfiguration",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Environment Configuration Management",
+      "url": "https://www.altium.com/documentation/altium-365/environment-configuration-management"
+     },
+     {
+      "primary": false,
+      "text": "Managing Environment Configurations",
+      "url": "https://www.altium.com/documentation/altium-365/managing-environment-configurations"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "configuration",
+   "title": "Environment Configuration"
+  },
+  "con_SchematicTemplate": {
+   "class_uri": "con:SchematicTemplate",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a Schematic Template",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/creating-templates"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "configuration",
+   "title": "Schematic Template"
+  },
+  "con_SchematicTemplateRevision": {
+   "class_uri": "con:SchematicTemplateRevision",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a Schematic Template",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/creating-templates#creating_workspace_schematic_template"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "configuration",
+   "title": "Schematic Template Revision"
+  },
+  "cus_Script": {
+   "class_uri": "cus:Script",
+   "grid": "grid:workspace:{workspace-id}:scripts:script/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloScrScript",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloScrScript/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "customization",
+   "title": "Script"
+  },
+  "cus_ScriptExecution": {
+   "class_uri": "cus:ScriptExecution",
+   "grid": "grid:workspace:{workspace-id}:scripts:execution/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloScrScriptExecution",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloScrScriptExecution/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "customization",
+   "title": "Script Execution"
+  },
+  "cus_ScriptExecutionCompleted": {
+   "class_uri": "cus:ScriptExecutionCompleted",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "customization",
+   "title": "Script Execution Completed"
+  },
+  "cus_ScriptVersion": {
+   "class_uri": "cus:ScriptVersion",
+   "grid": "grid:workspace:{workspace-id}:scripts:script-version/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloScrScriptVersion",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloScrScriptVersion/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "customization",
+   "title": "Script Version"
+  },
+  "cus_Workflow": {
+   "class_uri": "cus:Workflow",
+   "grid": "grid:workspace:{workspace-id}:customization:workflow/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkflowDefinition",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkflowDefinition/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Processes & Workflows",
+      "url": "https://www.altium.com/documentation/altium-365/processes-workflows"
+     },
+     {
+      "primary": false,
+      "text": "Create & Manage Electronics Design Processes",
+      "url": "https://www.altium.com/documentation/altium-365/creating-managing-processes"
+     },
+     {
+      "primary": false,
+      "text": "Defining a Process Workflow",
+      "url": "https://www.altium.com/documentation/altium-365/defining-process-workflow"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/processes-workflows",
+      "text": "Process Workflow"
+     },
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-365/creating-managing-processes",
+      "text": "Process Definition"
+     }
+    ]
+   },
+   "subset": "customization",
+   "title": "Workflow"
+  },
+  "des_BoardLayer": {
+   "class_uri": "des:BoardLayer",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_LayerObject",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_LayerObject/"
+     },
+     {
+      "type_name": "PCB.IPCB_ElectricalLayer",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_ElectricalLayer/"
+     },
+     {
+      "type_name": "PCB.IPCB_DielectricLayer",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_DielectricLayer/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesLayer",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesLayer/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Board Layer"
+  },
+  "des_CompiledDesign": {
+   "class_uri": "des:CompiledDesign",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IProject",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IProject/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignData_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignData_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Compiled Design"
+  },
+  "des_ComponentPart": {
+   "class_uri": "des:ComponentPart",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IPart",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IPart/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataPart_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataPart_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Component Part"
+  },
+  "des_DesignParameter": {
+   "class_uri": "des:DesignParameter",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IParameter",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IParameter/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Design Parameter"
+  },
+  "des_DifferentialPair": {
+   "class_uri": "des:DifferentialPair",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IDifferentialPair",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IDifferentialPair/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataDifferentialPair_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataDifferentialPair_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Differential Pair"
+  },
+  "des_HarnessProject": {
+   "class_uri": "des:HarnessProject",
+   "grid": "grid:workspace:{workspace-id}:design:project/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProject",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProject/"
+    },
+    "api_from": "des_Project",
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Harness Design",
+      "url": "https://www.altium.com/documentation/altium-designer/harness-design"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Harness Project"
+  },
+  "des_LayerStack": {
+   "class_uri": "des:LayerStack",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_LayerStack",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_LayerStack/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesStack",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesStack/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Layer Stack"
+  },
+  "des_ManufacturingPackage": {
+   "class_uri": "des:ManufacturingPackage",
+   "grid": "grid:workspace:{workspace-id}:design:manufacturing-package/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Viewing Manufacturing Packages",
+      "url": "https://www.altium.com/documentation/altium-365/viewers/manufacturing-package-viewer"
+     },
+     {
+      "primary": false,
+      "text": "Management of a Specific Project",
+      "url": "https://www.altium.com/documentation/altium-365/management-specific-project#SAMPYM"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-365/viewers/manufacturing-package-viewer",
+      "text": "Build Package"
+     }
+    ]
+   },
+   "subset": "design",
+   "title": "Manufacturing Package"
+  },
+  "des_MultiboardProject": {
+   "class_uri": "des:MultiboardProject",
+   "grid": "grid:workspace:{workspace-id}:design:project/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProject",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProject/"
+    },
+    "api_from": "des_Project",
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Designing with Multiple PCBs",
+      "url": "https://www.altium.com/documentation/altium-designer/multi-board-design#structure_multi_board_design_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Multiboard Project"
+  },
+  "des_Net": {
+   "class_uri": "des:Net",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.INet",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/INet/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataNet_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataNet_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Net"
+  },
+  "des_NetClass": {
+   "class_uri": "des:NetClass",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.INetClass",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/INetClass/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Net Class"
+  },
+  "des_NetItem": {
+   "class_uri": "des:NetItem",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.INetItem",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/INetItem/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataNetItem_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataNetItem_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Net Item"
+  },
+  "des_Pad": {
+   "class_uri": "des:Pad",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Pad",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Pad/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesPad",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesPad/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Pad"
+  },
+  "des_PcbComponent": {
+   "class_uri": "des:PcbComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Component",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Component/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesDesignItem",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesDesignItem/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "PCB Component"
+  },
+  "des_PcbLayout": {
+   "class_uri": "des:PcbLayout",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Board",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Board/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesPcb",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesPcb/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "PCB Layout"
+  },
+  "des_PcbNet": {
+   "class_uri": "des:PcbNet",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Net",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Net/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesNet",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesNet/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "PCB Net"
+  },
+  "des_PinInstance": {
+   "class_uri": "des:PinInstance",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.INetItem",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/INetItem/"
+     },
+     {
+      "type_name": "SCH.ISch_Pin",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/sch/ISch_Pin/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataPin_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataPin_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Pin Instance"
+  },
+  "des_PlacedComponent": {
+   "class_uri": "des:PlacedComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IComponent",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IComponent/"
+     },
+     {
+      "type_name": "SCH.ISch_Component",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/sch/ISch_Component/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataComponent_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataComponent_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Placed Component"
+  },
+  "des_Point2D": {
+   "class_uri": "des:Point2D",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.ICoordPoint",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/ICoordPoint/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesPosition2D",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesPosition2D/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Point 2D"
+  },
+  "des_Project": {
+   "class_uri": "des:Project",
+   "grid": "grid:workspace:{workspace-id}:design:project/{id}",
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IProject",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IProject/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProject",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProject/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Workspace Projects",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-projects"
+     },
+     {
+      "primary": false,
+      "text": "Creating Projects and Documents",
+      "url": "https://www.altium.com/documentation/altium-designer/creating-projects-documents"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365",
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/workspace-projects",
+      "text": "Workspace project"
+     },
+     {
+      "contexts": [
+       "altium-designer",
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/creating-projects-documents",
+      "text": "design project"
+     }
+    ]
+   },
+   "subset": "design",
+   "title": "Hardware Project"
+  },
+  "des_ProjectParameter": {
+   "class_uri": "des:ProjectParameter",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProjectParameter",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProjectParameter/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Workspace Projects",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-projects#project_parameters"
+     },
+     {
+      "primary": false,
+      "text": "Accessing, Defining & Managing Project Options",
+      "url": "https://www.altium.com/documentation/altium-designer/accessing-defining-managing-project-options#parameters"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Project Parameter"
+  },
+  "des_ProjectRelease": {
+   "class_uri": "des:ProjectRelease",
+   "grid": "grid:workspace:{workspace-id}:design:project-release/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesRelease",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesRelease/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Design Project Release",
+      "url": "https://www.altium.com/documentation/altium-designer/preparing-for-manufacture/design-release"
+     },
+     {
+      "primary": false,
+      "text": "Releasing to a Workspace",
+      "url": "https://www.altium.com/documentation/altium-designer/preparing-for-manufacture/design-release/workspace"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/preparing-for-manufacture/design-release",
+      "text": "design project release"
+     }
+    ]
+   },
+   "subset": "design",
+   "title": "Hardware Project Release"
+  },
+  "des_ProjectTemplate": {
+   "class_uri": "des:ProjectTemplate",
+   "grid": "grid:workspace:{workspace-id}:design:project-template/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProjectTemplate",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProjectTemplate/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a Project Template",
+      "url": "https://www.altium.com/documentation/altium-designer/creating-project-template"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Project Template"
+  },
+  "des_ProjectTemplateRevision": {
+   "class_uri": "des:ProjectTemplateRevision",
+   "grid": "grid:workspace:{workspace-id}:design:project-template-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesProjectTemplateRevision",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesProjectTemplateRevision/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Project Template Revision"
+  },
+  "des_ProjectVariant": {
+   "class_uri": "des:ProjectVariant",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IProjectVariant",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IProjectVariant/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWipVariant",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWipVariant/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Design Variants",
+      "url": "https://www.altium.com/documentation/altium-designer/design-variants"
+     },
+     {
+      "primary": false,
+      "text": "Working with the Variant Manager",
+      "url": "https://www.altium.com/documentation/altium-designer/variant-manager"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/design-variants",
+      "text": "design variant"
+     }
+    ]
+   },
+   "subset": "design",
+   "title": "Hardware Project Variant"
+  },
+  "des_Rectangle2D": {
+   "class_uri": "des:Rectangle2D",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.ICoordRect",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/ICoordRect/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesRectangle",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesRectangle/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Rectangle 2D"
+  },
+  "des_RuleCheck": {
+   "class_uri": "des:RuleCheck",
+   "grid": "grid:workspace:{workspace-id}:design:rule-check/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "RuleCheck",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/RuleCheck/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Rule Check"
+  },
+  "des_RuleCheckExecution": {
+   "class_uri": "des:RuleCheckExecution",
+   "grid": "grid:workspace:{workspace-id}:design:rule-check-execution/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "RuleCheckExecution",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/RuleCheckExecution/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Rule Check Execution"
+  },
+  "des_SchematicSheet": {
+   "class_uri": "des:SchematicSheet",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IDocument",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IDocument/"
+     },
+     {
+      "type_name": "SCH.ISch_Sheet",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/sch/ISch_Sheet/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataSchematicDocument_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataSchematicDocument_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Schematic Sheet"
+  },
+  "des_Stackup": {
+   "class_uri": "des:Stackup",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_MasterLayerStack",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_MasterLayerStack/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesStackup",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesStackup/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Layer Stackup"
+  },
+  "des_Track": {
+   "class_uri": "des:Track",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Track",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Track/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesTrack",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesTrack/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Track"
+  },
+  "des_VariantVariation": {
+   "class_uri": "des:VariantVariation",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.IComponentVariation",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/IComponentVariation/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataVariation_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataVariation_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Variant Variation"
+  },
+  "des_Via": {
+   "class_uri": "des:Via",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_Via",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_Via/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesVia",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesVia/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Via"
+  },
+  "des_Wire": {
+   "class_uri": "des:Wire",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "EDP.ILine",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/edp/ILine/"
+     },
+     {
+      "type_name": "SCH.ISch_Wire",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/sch/ISch_Wire/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesignDataLine_Preview",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesignDataLine_Preview/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "design",
+   "title": "Wire"
+  },
+  "dm_AddressBlock": {
+   "class_uri": "dm:AddressBlock",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAddressBlock",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAddressBlock/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "related",
+      "text": "CMSIS-SVD addressBlock element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_peripherals.html#elem_addressBlock"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "AddressBlock"
+  },
+  "dm_AddressMap": {
+   "class_uri": "dm:AddressMap",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAddressMapModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAddressMapModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "AddressMap"
+  },
+  "dm_AddressSegment": {
+   "class_uri": "dm:AddressSegment",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAddressSegment",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAddressSegment/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "AddressSegment"
+  },
+  "dm_ConfiguredDeviceModel": {
+   "class_uri": "dm:ConfiguredDeviceModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmDeviceModelAsConfigured",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmDeviceModelAsConfigured/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#using_the_device_configuration"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "ConfiguredDeviceModel"
+  },
+  "dm_FieldEnum": {
+   "class_uri": "dm:FieldEnum",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAmFieldEnum",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAmFieldEnum/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "exact",
+      "text": "CMSIS-SVD enumeratedValue element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_registers.html#elem_enumeratedValue"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "FieldEnum"
+  },
+  "dm_FullStackDeviceModel": {
+   "class_uri": "dm:FullStackDeviceModel",
+   "grid": "grid:global::device-model:fullstack-dm/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmFullStackDeviceModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmFullStackDeviceModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "close",
+      "text": "CMSIS-SVD device element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_device.html"
+     },
+     {
+      "relation": "close",
+      "text": "CMSIS-Pack PDSC device element",
+      "url": "https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_family_pg.html#element_device"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "FullStackDeviceModel"
+  },
+  "dm_Memory": {
+   "class_uri": "dm:Memory",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAmMemory",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAmMemory/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "close",
+      "text": "CMSIS-Pack PDSC memory element",
+      "url": "https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_family_pg.html#element_memory"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Memory"
+  },
+  "dm_Peripheral": {
+   "class_uri": "dm:Peripheral",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPeripheral",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPeripheral/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "related",
+      "text": "CMSIS-SVD peripheral element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_peripherals.html#elem_peripheral"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Peripheral"
+  },
+  "dm_PeripheralConfiguration": {
+   "class_uri": "dm:PeripheralConfiguration",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": "DmPeripheralConfiguration",
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralConfiguration"
+  },
+  "dm_PeripheralInstance": {
+   "class_uri": "dm:PeripheralInstance",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPeripheralInstance",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPeripheralInstance/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "close",
+      "text": "CMSIS-SVD peripheral element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_peripherals.html#elem_peripheral"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralInstance"
+  },
+  "dm_PeripheralMode": {
+   "class_uri": "dm:PeripheralMode",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPeripheralMode",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPeripheralMode/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralMode"
+  },
+  "dm_PeripheralParameter": {
+   "class_uri": "dm:PeripheralParameter",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": "DmPeripheralParameters",
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralParameter"
+  },
+  "dm_PeripheralPinConfig": {
+   "class_uri": "dm:PeripheralPinConfig",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": "DmPeripheralPinConfig",
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralPinConfig"
+  },
+  "dm_PeripheralPinDependencyConfig": {
+   "class_uri": "dm:PeripheralPinDependencyConfig",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": "DmPeripheralPinDependencyConfig",
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PeripheralPinDependencyConfig"
+  },
+  "dm_Pin": {
+   "class_uri": "dm:Pin",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPin",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPin/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Pin"
+  },
+  "dm_Port": {
+   "class_uri": "dm:Port",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPort",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPort/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Port"
+  },
+  "dm_PortConfiguration": {
+   "class_uri": "dm:PortConfiguration",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPortConfiguration",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPortConfiguration/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PortConfiguration"
+  },
+  "dm_PortConfigurationDependency": {
+   "class_uri": "dm:PortConfigurationDependency",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmConfigDependency",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmConfigDependency/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PortConfigurationDependency"
+  },
+  "dm_PortConfigurationEnumValue": {
+   "class_uri": "dm:PortConfigurationEnumValue",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmConfigEnumValue",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmConfigEnumValue/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PortConfigurationEnumValue"
+  },
+  "dm_PortConnection": {
+   "class_uri": "dm:PortConnection",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPortConnection",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPortConnection/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PortConnection"
+  },
+  "dm_PortFunction": {
+   "class_uri": "dm:PortFunction",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmPortFunction",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmPortFunction/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions#pulling_sdm_into_a_hardware_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "PortFunction"
+  },
+  "dm_Processor": {
+   "class_uri": "dm:Processor",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "close",
+      "text": "CMSIS-Pack PDSC processor element",
+      "url": "https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_family_pg.html#element_processor"
+     },
+     {
+      "relation": "close",
+      "text": "CMSIS-SVD cpu element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_cpu.html"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Processor"
+  },
+  "dm_Register": {
+   "class_uri": "dm:Register",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAmRegister",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAmRegister/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "close",
+      "text": "CMSIS-SVD register element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_registers.html#elem_register"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "Register"
+  },
+  "dm_RegisterField": {
+   "class_uri": "dm:RegisterField",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DmAmRegisterField",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DmAmRegisterField/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [
+     {
+      "relation": "exact",
+      "text": "CMSIS-SVD field element",
+      "url": "https://open-cmsis-pack.github.io/svd-spec/main/elem_registers.html#elem_field"
+     }
+    ],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "deviceModel",
+   "title": "RegisterField"
+  },
+  "ins_DesignInsight": {
+   "class_uri": "ins:DesignInsight",
+   "grid": "grid:workspace:{workspace-id}:insights:insight/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkspaceInsInsight",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkspaceInsInsight/"
+    },
+    "api_from": "ins_Insight",
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "insights",
+   "title": "Design Insight"
+  },
+  "ins_PartInsight": {
+   "class_uri": "ins:PartInsight",
+   "grid": "grid:workspace:{workspace-id}:insights:insight/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkspaceInsInsight",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkspaceInsInsight/"
+    },
+    "api_from": "ins_Insight",
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "insights",
+   "title": "Part Insight"
+  },
+  "lib_Component": {
+   "class_uri": "lib:Component",
+   "grid": "grid:workspace:{workspace-id}:library:component/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Building & Maintaining Your Components and Libraries",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries#WSL"
+     },
+     {
+      "primary": false,
+      "text": "Workspace Components",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-components"
+     },
+     {
+      "primary": false,
+      "text": "Single Component Editing",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/single-component-editing"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer",
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries",
+      "text": "Workspace component"
+     },
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/workspace-components",
+      "text": "managed component"
+     },
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/workspace-components",
+      "text": "library component"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "Component"
+  },
+  "lib_ComponentParameter": {
+   "class_uri": "lib:ComponentParameter",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesComponentParameter",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesComponentParameter/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Component Templates",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/workspace-component-templates#UACPDT"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Component Parameter"
+  },
+  "lib_ComponentRevision": {
+   "class_uri": "lib:ComponentRevision",
+   "grid": "grid:workspace:{workspace-id}:library:component-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesComponent",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesComponent/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Building & Maintaining Your Components and Libraries",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries#WSL"
+     },
+     {
+      "primary": false,
+      "text": "Single Component Editing",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/single-component-editing"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Component Revision"
+  },
+  "lib_ComponentTemplate": {
+   "class_uri": "lib:ComponentTemplate",
+   "grid": "grid:workspace:{workspace-id}:library:component-template/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesComponentTemplate",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesComponentTemplate/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Component Templates",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/workspace-component-templates"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Component Template"
+  },
+  "lib_ComponentTemplateRevision": {
+   "class_uri": "lib:ComponentTemplateRevision",
+   "grid": "grid:workspace:{workspace-id}:library:component-template-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesComponentTemplateRevision",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesComponentTemplateRevision/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Component Templates",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/workspace-component-templates"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Component Template Revision"
+  },
+  "lib_Datasheet": {
+   "class_uri": "lib:Datasheet",
+   "grid": "grid:workspace:{workspace-id}:library:datasheet/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesDatasheet",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesDatasheet/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Adding Datasheets to a Component",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-datasheets-component"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Datasheet"
+  },
+  "lib_Footprint": {
+   "class_uri": "lib:Footprint",
+   "grid": "grid:workspace:{workspace-id}:library:footprint/{id}",
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "PCB.IPCB_LibComponent",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/pcb/IPCB_LibComponent/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a PCB Footprint",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-pcb-footprint"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-pcb-footprint",
+      "text": "Workspace Footprint"
+     },
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-pcb-footprint",
+      "text": "PCB footprint"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "Footprint"
+  },
+  "lib_FootprintRevision": {
+   "class_uri": "lib:FootprintRevision",
+   "grid": "grid:workspace:{workspace-id}:library:footprint-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesFootprint",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesFootprint/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a PCB Footprint",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-pcb-footprint"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Footprint Revision"
+  },
+  "lib_ManagedSheet": {
+   "class_uri": "lib:ManagedSheet",
+   "grid": "grid:workspace:{workspace-id}:library:managed-sheet/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Managed Schematic Sheets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/workspace-managed-schematic-sheets#just_what_is_a_managed_schematic_sheet"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/workspace-managed-schematic-sheets",
+      "text": "managed schematic sheet"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "Managed Sheet"
+  },
+  "lib_ManagedSheetRevision": {
+   "class_uri": "lib:ManagedSheetRevision",
+   "grid": "grid:workspace:{workspace-id}:library:managed-sheet-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Managed Schematic Sheets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/workspace-managed-schematic-sheets#just_what_is_a_managed_schematic_sheet"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Managed Sheet Revision"
+  },
+  "lib_Part": {
+   "class_uri": "lib:Part",
+   "grid": "grid:workspace:{workspace-id}:library:part/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesPart",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesPart/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Adding Supply Chain Information to a Component",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-supply-chain-information-component#the_part_catalog"
+     },
+     {
+      "primary": false,
+      "text": "Part Source Configuration",
+      "url": "https://www.altium.com/documentation/altium-365/part-source-configuration"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer",
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-supply-chain-information-component",
+      "text": "Manufacturer Part"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "Part"
+  },
+  "lib_PartChoice": {
+   "class_uri": "lib:PartChoice",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Adding Supply Chain Information to a Component",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-supply-chain-information-component#anatomy_of_a_part_choice"
+     },
+     {
+      "primary": false,
+      "text": "Workspace Components",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-components#view_edit_part_choices"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Part Choice"
+  },
+  "lib_PartChoiceList": {
+   "class_uri": "lib:PartChoiceList",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Adding Supply Chain Information to a Component",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-supply-chain-information-component#part_choices"
+     },
+     {
+      "primary": false,
+      "text": "Workspace Components",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-components#view_edit_part_choices"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Part Choice List"
+  },
+  "lib_PartRequest": {
+   "class_uri": "lib:PartRequest",
+   "grid": "grid:workspace:{workspace-id}:library:part-request/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Part Requests",
+      "url": "https://www.altium.com/documentation/altium-365/workflow-part-requests"
+     },
+     {
+      "primary": false,
+      "text": "Process-based Part Requests",
+      "url": "https://www.altium.com/documentation/altium-designer/interactive-process-workflows/part-requests"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Part Request"
+  },
+  "lib_PcbSnippet": {
+   "class_uri": "lib:PcbSnippet",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Snippets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/snippets"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "PCB Snippet"
+  },
+  "lib_PcbSnippetRevision": {
+   "class_uri": "lib:PcbSnippetRevision",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Snippets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/snippets"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "PCB Snippet Revision"
+  },
+  "lib_Pin": {
+   "class_uri": "lib:Pin",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [
+     {
+      "type_name": "SCH.ISch_Pin",
+      "url": "https://altiumdeveloper.github.io/ad-sdk-docs/reference/sch/ISch_Pin/"
+     }
+    ],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesPin",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesPin/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Pin"
+  },
+  "lib_ReuseBlock": {
+   "class_uri": "lib:ReuseBlock",
+   "grid": "grid:workspace:{workspace-id}:library:reuse-block/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesReuseBlock",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesReuseBlock/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Reuse Blocks",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/reuse-blocks"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Reuse Block"
+  },
+  "lib_ReuseBlockRevision": {
+   "class_uri": "lib:ReuseBlockRevision",
+   "grid": "grid:workspace:{workspace-id}:library:reuse-block-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesReuseBlockRevision",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesReuseBlockRevision/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Reuse Blocks",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/reuse-blocks"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Reuse Block Revision"
+  },
+  "lib_SchSnippet": {
+   "class_uri": "lib:SchSnippet",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Snippets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/snippets"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/snippets",
+      "text": "schematic snippet"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "SCH Snippet"
+  },
+  "lib_SchSnippetRevision": {
+   "class_uri": "lib:SchSnippetRevision",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Snippets",
+      "url": "https://www.altium.com/documentation/altium-designer/schematic/design-reuse/snippets"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "SCH Snippet Revision"
+  },
+  "lib_Symbol": {
+   "class_uri": "lib:Symbol",
+   "grid": "grid:workspace:{workspace-id}:library:symbol/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a Schematic Symbol",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-schematic-symbol"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-schematic-symbol",
+      "text": "Workspace Symbol"
+     },
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-schematic-symbol",
+      "text": "schematic symbol"
+     }
+    ]
+   },
+   "subset": "library",
+   "title": "Symbol"
+  },
+  "lib_SymbolRevision": {
+   "class_uri": "lib:SymbolRevision",
+   "grid": "grid:workspace:{workspace-id}:library:symbol-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesSymbol",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesSymbol/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Creating a Schematic Symbol",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/creating-schematic-symbol"
+     },
+     {
+      "primary": false,
+      "text": "Working with Items",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "library",
+   "title": "Symbol Revision"
+  },
+  "ota_Deployment": {
+   "class_uri": "ota:Deployment",
+   "grid": "grid:workspace:{workspace-id}:ota:deployment/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Deployment"
+  },
+  "ota_DeploymentAssignment": {
+   "class_uri": "ota:DeploymentAssignment",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Deployment Assignment"
+  },
+  "ota_DeploymentResult": {
+   "class_uri": "ota:DeploymentResult",
+   "grid": "grid:workspace:{workspace-id}:ota:deployment-result/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Deployment Result"
+  },
+  "ota_Device": {
+   "class_uri": "ota:Device",
+   "grid": "grid:workspace:{workspace-id}:ota:device/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Device"
+  },
+  "ota_DeviceMetrics": {
+   "class_uri": "ota:DeviceMetrics",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Device Metrics"
+  },
+  "ota_Fleet": {
+   "class_uri": "ota:Fleet",
+   "grid": "grid:workspace:{workspace-id}:ota:fleet/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Fleet"
+  },
+  "ota_MetricDataPoint": {
+   "class_uri": "ota:MetricDataPoint",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Metric Data Point"
+  },
+  "ota_MetricSeries": {
+   "class_uri": "ota:MetricSeries",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Metric Series"
+  },
+  "ota_Package": {
+   "class_uri": "ota:Package",
+   "grid": "grid:workspace:{workspace-id}:ota:package/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Package"
+  },
+  "ota_PackageHash": {
+   "class_uri": "ota:PackageHash",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "ota",
+   "title": "Package Hash"
+  },
+  "plt_Application": {
+   "class_uri": "plt:Application",
+   "grid": "grid:global::platform:app/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloApp",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloApp/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Application"
+  },
+  "plt_EventSubscription": {
+   "class_uri": "plt:EventSubscription",
+   "grid": "grid:global::events:subscription/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "INTERFACE",
+     "type_name": "GloEvtSubscription",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/interfaces/GloEvtSubscription/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Event Subscription"
+  },
+  "plt_LifecycleDefinition": {
+   "class_uri": "plt:LifecycleDefinition",
+   "grid": "grid:workspace:{workspace-id}:platform:lifecycle-definition/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesLifeCycleDefinition",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesLifeCycleDefinition/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Defining Lifecycle Definitions for a Workspace",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/defining-lifecycle-definitions"
+     },
+     {
+      "primary": false,
+      "text": "Lifecycle Management",
+      "url": "https://www.altium.com/documentation/altium-365/lifecycle-management"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Lifecycle Definition"
+  },
+  "plt_LifecycleStage": {
+   "class_uri": "plt:LifecycleStage",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesLifeCycleStage",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesLifeCycleStage/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Defining Lifecycle Definitions for a Workspace",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/defining-lifecycle-definitions"
+     },
+     {
+      "primary": false,
+      "text": "Lifecycle Management",
+      "url": "https://www.altium.com/documentation/altium-365/lifecycle-management"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Lifecycle Stage"
+  },
+  "plt_LifecycleState": {
+   "class_uri": "plt:LifecycleState",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesLifeCycleState",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesLifeCycleState/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Defining Lifecycle Definitions for a Workspace",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/defining-lifecycle-definitions#options_and_controls_of_the_state_properties_dialog"
+     },
+     {
+      "primary": false,
+      "text": "Managing Item Revision Lifecycle",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/items/managing-revision-lifecycle"
+     },
+     {
+      "primary": false,
+      "text": "Lifecycle Management",
+      "url": "https://www.altium.com/documentation/altium-365/lifecycle-management"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Lifecycle State"
+  },
+  "plt_NamingScheme": {
+   "class_uri": "plt:NamingScheme",
+   "grid": "grid:workspace:{workspace-id}:platform:revision-naming-scheme/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesRevisionNamingScheme",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesRevisionNamingScheme/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Defining Revision Naming Schemes for a Workspace",
+      "url": "https://www.altium.com/documentation/altium-designer/connected-workspace/defining-naming-schemes"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Revision Naming Scheme"
+  },
+  "plt_Organization": {
+   "class_uri": "plt:Organization",
+   "grid": "grid:global::platform:organization/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloOrganization",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloOrganization/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Company Dashboard",
+      "url": "https://www.altium.com/documentation/altium-dashboard"
+     },
+     {
+      "primary": false,
+      "text": "Configuring Your Company Profile",
+      "url": "https://www.altium.com/documentation/altium-dashboard/profile"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-dashboard"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-dashboard",
+      "text": "Company Account"
+     }
+    ]
+   },
+   "subset": "platform",
+   "title": "Organization"
+  },
+  "plt_Solution": {
+   "class_uri": "plt:Solution",
+   "grid": "grid:workspace:{workspace-id}:platform:solution/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SolSolution",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SolSolution/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365"
+     },
+     {
+      "primary": false,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365",
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/renesas-365",
+      "text": "Renesas 365 solution"
+     }
+    ]
+   },
+   "subset": "platform",
+   "title": "Solution"
+  },
+  "plt_SolutionRelease": {
+   "class_uri": "plt:SolutionRelease",
+   "grid": "grid:workspace:{workspace-id}:platform:solution-release/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Solution Release"
+  },
+  "plt_User": {
+   "class_uri": "plt:User",
+   "grid": "grid:global::platform:user/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloUser",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloUser/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Managing Users",
+      "url": "https://www.altium.com/documentation/altium-dashboard/managing-users"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-dashboard",
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-dashboard/managing-users",
+      "text": "Altium Account"
+     }
+    ]
+   },
+   "subset": "platform",
+   "title": "User"
+  },
+  "plt_UserGroup": {
+   "class_uri": "plt:UserGroup",
+   "grid": "grid:global::platform:group/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "GloUserGroup",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/GloUserGroup/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Managing Groups",
+      "url": "https://www.altium.com/documentation/altium-dashboard/managing-groups"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "User Group"
+  },
+  "plt_Workspace": {
+   "class_uri": "plt:Workspace",
+   "grid": "grid:global::platform:workspace/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkspace",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkspace/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Altium 365 Workspace",
+      "url": "https://www.altium.com/documentation/altium-365/workspace"
+     },
+     {
+      "primary": false,
+      "text": "Activation & Management",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-activation-management"
+     },
+     {
+      "primary": false,
+      "text": "Realms",
+      "url": "https://www.altium.com/documentation/altium-developer-center/altium-365/key-concepts/realms"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/workspace",
+      "text": "Altium 365 Workspace"
+     }
+    ]
+   },
+   "subset": "platform",
+   "title": "Workspace"
+  },
+  "plt_WorkspaceGroup": {
+   "class_uri": "plt:WorkspaceGroup",
+   "grid": "grid:workspace:{workspace-id}:team:group/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkspaceGroup",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkspaceGroup/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Managing Workspace Membership",
+      "url": "https://www.altium.com/documentation/altium-365/managing-workspace-membership#admin_groups"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "platform",
+   "title": "Workspace Group"
+  },
+  "plt_WorkspaceUser": {
+   "class_uri": "plt:WorkspaceUser",
+   "grid": "grid:workspace:{workspace-id}:team:user/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "DesWorkspaceUser",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/DesWorkspaceUser/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Managing Workspace Membership",
+      "url": "https://www.altium.com/documentation/altium-365/managing-workspace-membership#workspace_members"
+     },
+     {
+      "primary": false,
+      "text": "Inviting other Users to Your Workspace",
+      "url": "https://www.altium.com/documentation/altium-365/inviting-users"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/managing-workspace-membership",
+      "text": "Workspace member"
+     }
+    ]
+   },
+   "subset": "platform",
+   "title": "Workspace User"
+  },
+  "pro_BomIssue": {
+   "class_uri": "pro:BomIssue",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomIssue",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomIssue/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "BOM Error Detection and Correction",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal/error-detection-correction"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "BOM Issue"
+  },
+  "pro_BomItem": {
+   "class_uri": "pro:BomItem",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomItem",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomItem/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Configuration and Options",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal/configuration-options#bom-structure-features"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/bom-portal/configuration-options",
+      "text": "BOM line"
+     }
+    ]
+   },
+   "subset": "procurement",
+   "title": "BOM Item"
+  },
+  "pro_BomItemAlternate": {
+   "class_uri": "pro:BomItemAlternate",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomItemAlternate",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomItemAlternate/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Configuration and Options",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal/configuration-options#add_alternate"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/bom-portal/configuration-options",
+      "text": "Alternate"
+     }
+    ]
+   },
+   "subset": "procurement",
+   "title": "BOM Item Alternate"
+  },
+  "pro_BomItemSubstitute": {
+   "class_uri": "pro:BomItemSubstitute",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomItemSubstitute",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomItemSubstitute/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "BOM Item Substitute"
+  },
+  "pro_BomRelease": {
+   "class_uri": "pro:BomRelease",
+   "grid": "grid:workspace:{workspace-id}:procurement:bom-release/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomRelease",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomRelease/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "BOM Portal",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal#release_naming"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "BOM Release"
+  },
+  "pro_ConsolidatedBOM": {
+   "class_uri": "pro:ConsolidatedBOM",
+   "grid": "grid:workspace:{workspace-id}:procurement:consolidated-bom/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomWip",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomWip/"
+    },
+    "api_from": "pro_BomWIP",
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Consolidated BOM",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal/consolidated-bom"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "Consolidated BOM"
+  },
+  "pro_GlobalBOM": {
+   "class_uri": "pro:GlobalBOM",
+   "grid": "grid:global::procurement:bom/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "Global BOM"
+  },
+  "pro_ManagedBOM": {
+   "class_uri": "pro:ManagedBOM",
+   "grid": "grid:workspace:{workspace-id}:procurement:bom/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "BomWip",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/BomWip/"
+    },
+    "api_from": "pro_BomWIP",
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "BOM Portal",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal"
+     },
+     {
+      "primary": false,
+      "text": "Workspace Projects",
+      "url": "https://www.altium.com/documentation/altium-365/workspace-projects#uploading_or_creating_a_managed_bom"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "procurement",
+   "title": "Managed BOM"
+  },
+  "req_Artifact": {
+   "class_uri": "req:Artifact",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "requirements",
+   "title": "Requirement Artifact"
+  },
+  "req_Project": {
+   "class_uri": "req:Project",
+   "grid": "grid:workspace:{workspace-id}:requirements:project/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Project Module",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/project-module#creating_a_new_requirements_project"
+     },
+     {
+      "primary": false,
+      "text": "Working with Requirements",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-integration#basic_requirements_portal_setup"
+     },
+     {
+      "primary": false,
+      "text": "Working with Requirements",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-integration#linking_requirements_to_a_design_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "requirements",
+   "title": "Requirements Project"
+  },
+  "req_Requirement": {
+   "class_uri": "req:Requirement",
+   "grid": "grid:workspace:{workspace-id}:requirements:requirement/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Requirement Fields",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/requirements-module/requirement-fields"
+     },
+     {
+      "primary": false,
+      "text": "Creating Requirements",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/requirements-module/creating-requirements"
+     },
+     {
+      "primary": false,
+      "text": "Requirements Breakdown Process",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/requirements-module/requirements-breakdown-process"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "requirements",
+   "title": "Requirement"
+  },
+  "req_RequirementBaseline": {
+   "class_uri": "req:RequirementBaseline",
+   "grid": "grid:workspace:{workspace-id}:requirements:baseline/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Requirement Versioning and Releasing",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-systems-portal/requirements-module/requirement-versioning-and-releasing"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-365/requirements-systems-portal/requirements-module/requirement-versioning-and-releasing",
+      "text": "Release Specification"
+     }
+    ]
+   },
+   "subset": "requirements",
+   "title": "Requirement Baseline"
+  },
+  "req_RequirementChangeRequest": {
+   "class_uri": "req:RequirementChangeRequest",
+   "grid": "grid:workspace:{workspace-id}:requirements:change-request/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "requirements",
+   "title": "Requirement Change Request"
+  },
+  "req_RequirementRevision": {
+   "class_uri": "req:RequirementRevision",
+   "grid": "grid:workspace:{workspace-id}:requirements:requirement-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Requirement Versioning and Releasing",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-systems-portal/requirements-module/requirement-versioning-and-releasing"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "requirements",
+   "title": "Requirement Revision"
+  },
+  "req_RequirementSpecification": {
+   "class_uri": "req:RequirementSpecification",
+   "grid": "grid:workspace:{workspace-id}:requirements:specification/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Create Specifications",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/requirements-module/create-specifications"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/requirements-portal/requirements-module/create-specifications",
+      "text": "Specification"
+     }
+    ]
+   },
+   "subset": "requirements",
+   "title": "Requirement Specification"
+  },
+  "req_VerificationCase": {
+   "class_uri": "req:VerificationCase",
+   "grid": "grid:workspace:{workspace-id}:requirements:verification-case/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Verification & Validation Module",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/verification-validation-module"
+     },
+     {
+      "primary": false,
+      "text": "Flow 1: Plan Verification Activities",
+      "url": "https://www.altium.com/documentation/altium-365/requirements-portal/verification-validation-module/flow-1-plan-verification-activities"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-365/requirements-portal/verification-validation-module",
+      "text": "V&V Activity"
+     }
+    ]
+   },
+   "subset": "requirements",
+   "title": "Verification Case"
+  },
+  "sft_AIModel": {
+   "class_uri": "sft:AIModel",
+   "grid": "grid:workspace:{workspace-id}:software:ai-model/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "AI Model"
+  },
+  "sft_BuildArtifact": {
+   "class_uri": "sft:BuildArtifact",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Build Artifact"
+  },
+  "sft_DeviceConfiguration": {
+   "class_uri": "sft:DeviceConfiguration",
+   "grid": "grid:workspace:{workspace-id}:software:device-configuration/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SftDevCfgDeviceConfiguration",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SftDevCfgDeviceConfiguration/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#using_the_device_configuration"
+     },
+     {
+      "primary": false,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions#pulling_sdm_into_a_hardware_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Device Configuration"
+  },
+  "sft_DeviceConfigurationRevision": {
+   "class_uri": "sft:DeviceConfigurationRevision",
+   "grid": "grid:workspace:{workspace-id}:software:device-configuration-revision/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SftDevCfgDeviceConfigurationRevision",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SftDevCfgDeviceConfigurationRevision/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Device Configuration Revision"
+  },
+  "sft_PinAssignment": {
+   "class_uri": "sft:PinAssignment",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions#pulling_sdm_into_a_hardware_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Pin Assignment"
+  },
+  "sft_PinAssignmentModel": {
+   "class_uri": "sft:PinAssignmentModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#using_the_device_configuration"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Pin Assignment Model"
+  },
+  "sft_SoftwareProject": {
+   "class_uri": "sft:SoftwareProject",
+   "grid": "grid:workspace:{workspace-id}:software:software-project/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SftSoftwareProject",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SftSoftwareProject/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#exploring_a_solution"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#generating_a_board_support_package"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Software Project"
+  },
+  "sft_SoftwareRelease": {
+   "class_uri": "sft:SoftwareRelease",
+   "grid": "grid:workspace:{workspace-id}:software:software-release/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "software",
+   "title": "Software Release"
+  },
+  "sup_Company": {
+   "class_uri": "sup:Company",
+   "grid": "grid:supply::platform:company/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": {
+     "type_name": "SupCompany",
+     "url": "https://www.altium.com/documentation/altium-developer-center/octopart/api"
+    },
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Company"
+  },
+  "sup_EvalKit": {
+   "class_uri": "sup:EvalKit",
+   "grid": "grid:supply::platform:eval-kit/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupEvalKit",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupEvalKit/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#linking_an_evaluation_kit"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/renesas-365",
+      "text": "Eval Kit"
+     }
+    ]
+   },
+   "subset": "supply",
+   "title": "Evaluation Kit"
+  },
+  "sup_Offer": {
+   "class_uri": "sup:Offer",
+   "grid": "grid:supply::platform:part/{id}/offer/{offerID}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Sourced Manufacturer and Supplier Data",
+      "url": "https://www.altium.com/documentation/altium-365/bom-portal/sourced-manufacturer-supplier-data#order_list"
+     },
+     {
+      "primary": false,
+      "text": "Octopart API",
+      "url": "https://www.altium.com/documentation/altium-developer-center/octopart/api"
+     }
+    ],
+    "mappings": [],
+    "nexar": {
+     "type_name": "SupOffer",
+     "url": "https://www.altium.com/documentation/altium-developer-center/octopart/api"
+    },
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/adding-supply-chain-information-component",
+      "text": "Supplier Part"
+     }
+    ]
+   },
+   "subset": "supply",
+   "title": "Offer"
+  },
+  "sup_Part": {
+   "class_uri": "sup:Part",
+   "grid": "grid:supply::platform:part/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Searching for Manufacturer Parts",
+      "url": "https://www.altium.com/documentation/altium-designer/components-libraries/searching-manufacturer-parts#manufacturer_and_supplier_data"
+     },
+     {
+      "primary": false,
+      "text": "Octopart API",
+      "url": "https://www.altium.com/documentation/altium-developer-center/octopart/api"
+     }
+    ],
+    "mappings": [],
+    "nexar": {
+     "type_name": "SupPart",
+     "url": "https://www.altium.com/documentation/altium-developer-center/octopart/api"
+    },
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-designer"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-designer/components-libraries/searching-manufacturer-parts",
+      "text": "Manufacturer Part"
+     }
+    ]
+   },
+   "subset": "supply",
+   "title": "Part"
+  },
+  "sup_PartFamily": {
+   "class_uri": "sup:PartFamily",
+   "grid": "grid:supply::platform:part-family/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupPartFamily",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupPartFamily/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Part Family"
+  },
+  "sup_PartGroup": {
+   "class_uri": "sup:PartGroup",
+   "grid": "grid:supply::platform:part-group/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupPartGroup",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupPartGroup/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Part Group"
+  },
+  "sup_ReferenceDesign": {
+   "class_uri": "sup:ReferenceDesign",
+   "grid": "grid:supply::platform:ref-design/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupRefDesign",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupRefDesign/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#import_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Reference Design"
+  },
+  "sup_SoftwareProject": {
+   "class_uri": "sup:SoftwareProject",
+   "grid": "grid:supply::platform:software-project/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupSoftwareProject",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupSoftwareProject/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#import_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Software Project"
+  },
+  "sup_SolutionTemplate": {
+   "class_uri": "sup:SolutionTemplate",
+   "grid": "grid:supply::platform:solution-template/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SupSolutionTemplate",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SupSolutionTemplate/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "supply",
+   "title": "Solution Template"
+  },
+  "system_Connection": {
+   "class_uri": "sys:Connection",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#connecting_functional_blocks"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#defining_an_esd_document"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Connection"
+  },
+  "system_ESDDocument": {
+   "class_uri": "sys:ESDDocument",
+   "grid": "grid:workspace:{workspace-id}:system-design:esd/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysEsdDocument",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysEsdDocument/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd"
+     },
+     {
+      "primary": false,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#exploring_a_solution"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#pushing_pulling_sdm"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "related",
+      "source": "https://www.altium.com/documentation/altium-365/renesas-365",
+      "text": "System Design"
+     }
+    ]
+   },
+   "subset": "system",
+   "title": "ESD Document"
+  },
+  "system_Endpoint": {
+   "class_uri": "sys:Endpoint",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Endpoint"
+  },
+  "system_FunctionalBlock": {
+   "class_uri": "sys:FunctionalBlock",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#defining_an_esd_document"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#placing_and_configuring_functional_blocks"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Functional Block"
+  },
+  "system_GlobalESD": {
+   "class_uri": "sys:GlobalESD",
+   "grid": "grid:global::system-design:esd/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": true,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Global ESD"
+  },
+  "system_HardwareProject": {
+   "class_uri": "sys:HardwareProject",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Hardware Project"
+  },
+  "system_KeyComponent": {
+   "class_uri": "sys:KeyComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#hardware_component"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#using_the_device_configuration"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/esd",
+      "text": "Hardware Component"
+     }
+    ]
+   },
+   "subset": "system",
+   "title": "Key Component"
+  },
+  "system_Parameter": {
+   "class_uri": "sys:Parameter",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#accessing_object_properties"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Parameter"
+  },
+  "system_Port": {
+   "class_uri": "sys:Port",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#defining_an_esd_document"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#port"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Port"
+  },
+  "system_PortAssociation": {
+   "class_uri": "sys:PortAssociation",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Port Association"
+  },
+  "system_SdmAuthoringApplication": {
+   "class_uri": "sys:SdmAuthoringApplication",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Authoring Application"
+  },
+  "system_SdmClientMetadata": {
+   "class_uri": "sys:SdmClientMetadata",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Domain Metadata"
+  },
+  "system_SdmConnection": {
+   "class_uri": "sys:SdmConnection",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmConnection",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmConnection/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Connection"
+  },
+  "system_SdmDeviceModel": {
+   "class_uri": "sys:SdmDeviceModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmDeviceModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmDeviceModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#using_the_device_configuration"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#generating_a_board_support_package"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Device Model"
+  },
+  "system_SdmEndpoint": {
+   "class_uri": "sys:SdmEndpoint",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmEndpoint",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmEndpoint/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Endpoint"
+  },
+  "system_SdmFunctionalBlock": {
+   "class_uri": "sys:SdmFunctionalBlock",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmFunctionalBlock",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmFunctionalBlock/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Functional Block"
+  },
+  "system_SdmFunctionalModel": {
+   "class_uri": "sys:SdmFunctionalModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmFunctionalModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmFunctionalModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Functional Model"
+  },
+  "system_SdmHardwareComponent": {
+   "class_uri": "sys:SdmHardwareComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmHardwareComponent",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmHardwareComponent/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#hardware_component"
+     },
+     {
+      "primary": false,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions#pulling_sdm_into_a_hardware_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Hardware Component"
+  },
+  "system_SdmHardwareModel": {
+   "class_uri": "sys:SdmHardwareModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmHardwareModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmHardwareModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Hardware Model"
+  },
+  "system_SdmPort": {
+   "class_uri": "sys:SdmPort",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmPort",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmPort/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Port"
+  },
+  "system_SdmSoftwareComponent": {
+   "class_uri": "sys:SdmSoftwareComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSoftwareComponent",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSoftwareComponent/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Software Component"
+  },
+  "system_SdmSoftwareModel": {
+   "class_uri": "sys:SdmSoftwareModel",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSoftwareModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSoftwareModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Software Model"
+  },
+  "system_SdmSoftwareSpecification": {
+   "class_uri": "sys:SdmSoftwareSpecification",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSoftwareSpecification",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSoftwareSpecification/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Software Specification"
+  },
+  "system_SdmSoftwareStackInstance": {
+   "class_uri": "sys:SdmSoftwareStackInstance",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSoftwareStackInstance",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSoftwareStackInstance/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "Software Stack Instance"
+  },
+  "system_SdmSystemModel": {
+   "class_uri": "sys:SystemModel",
+   "grid": "grid:workspace:{workspace-id}:system-design:sdm/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSystemModel",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSystemModel/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Renesas 365",
+      "url": "https://www.altium.com/documentation/altium-365/renesas-365#system_data_model"
+     },
+     {
+      "primary": false,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#pushing_pulling_sdm"
+     },
+     {
+      "primary": false,
+      "text": "Working with Renesas 365 Solutions",
+      "url": "https://www.altium.com/documentation/altium-designer/working-renesas-365-solutions#pulling_sdm_into_a_hardware_project"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": [
+     {
+      "contexts": [
+       "altium-365",
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/renesas-365",
+      "text": "System Data Model"
+     },
+     {
+      "contexts": [
+       "altium-365",
+       "altium-designer"
+      ],
+      "predicate": "exact",
+      "source": "https://www.altium.com/documentation/altium-365/renesas-365",
+      "text": "SDM"
+     }
+    ]
+   },
+   "subset": "system-sdm",
+   "title": "System Model"
+  },
+  "system_SdmSystemModelVersion": {
+   "class_uri": "sys:SystemModelVersion",
+   "grid": "grid:workspace:{workspace-id}:system-design:sdm-version/{id}",
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": {
+     "kind": "OBJECT",
+     "type_name": "SysSdmSystemModelVersion",
+     "url": "https://altiumdeveloper.github.io/platform-api-docs/types/objects/SysSdmSystemModelVersion/"
+    },
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "System Model Version"
+  },
+  "system_SdmSystemModelVersionMetadata": {
+   "class_uri": "sys:SdmSystemModelVersionMetadata",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system-sdm",
+   "title": "System Model Version Metadata"
+  },
+  "system_SoftwareComponent": {
+   "class_uri": "sys:SoftwareComponent",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [
+     {
+      "primary": true,
+      "text": "Electronic System Design",
+      "url": "https://www.altium.com/documentation/altium-365/esd#software_component"
+     }
+    ],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Software Component"
+  },
+  "system_SoftwareProject": {
+   "class_uri": "sys:SoftwareProject",
+   "grid": null,
+   "hub": {
+    "ad_sdk": [],
+    "ad_sdk_missing": [],
+    "api": null,
+    "api_from": null,
+    "api_missing": null,
+    "links": [],
+    "mappings": [],
+    "nexar": null,
+    "nexar_missing": null,
+    "product_docs_none": false,
+    "terms": []
+   },
+   "subset": "system",
+   "title": "Software Project"
+  }
+ },
+ "schema": {
+  "api_snapshot_retrieved": "2026-09-29",
+  "id": "https://w3id.org/altium/cdm/",
+  "name": "cdm"
+ }
+}
